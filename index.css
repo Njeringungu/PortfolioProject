@@ -1,0 +1,43 @@
+body{
+    color: red;
+    background-image: url(./images/portfolio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro{
+    color: white;
+}
+.para{color:white;}
+.head{
+    color: darkblue;
+}
+#list{
+    color: purple;
+}
+h1:hover{
+    color: blue;
+}
+
+.menu-bar{
+    background-color: gray;
+    
+}
+.menu-bar nav{
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+}
+nav a{
+    margin-left: 4.5em;
+    padding: 2em;
+}
+#skills{
+    display: flex;
+    justify-content: center;
+    
+}
+#skills div{
+    margin-left: 20px;
+    margin-right: 20px;
+}
